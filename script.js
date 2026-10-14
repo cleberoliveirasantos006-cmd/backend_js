@@ -52,7 +52,7 @@ botaoEscuro.addEventListener("click", () => {
 
     // Muda o texto do botao conforme o modo atual
     if (document.body.classList.contains("escuro")) {
-        botoeEscuro.textContent = "Modo claro";
+        botaoEscuro.textContent = "Modo claro";
     } else {
         botaoEscuro.textContent = "Modo escuro";
     }
@@ -84,7 +84,7 @@ adicionarCor("verde");
 adicionarCor("azul");
 proximaCor = 3;
 
-document.querySelector("#btn-adionar").addEventListener("click", () => {
+document.querySelector("#btn-adicionar").addEventListener("click", () => {
     adicionarCor(cores[proximaCor % cores.length]);
     proximaCor++;
 });
@@ -106,5 +106,6 @@ campoNome.addEventListener('input', () => {
   } else {
     saudacao.textContent = `Olá, ${nome}!`;
   }
+
   contador.textContent = `Letras: ${campoNome.value.length}`;
 });
