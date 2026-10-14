@@ -30,7 +30,7 @@ const paragrafos = document.querySelectorAll(".texto");
 // Muda o texto e a cor do titulo
 document.querySelector("#btn-mudar-titulo").addEventListener("click", () => {
     titulo.textContent = "Título mudado pelo JavaScript!";
-    titulo.computedStyleMap.color = "#780606";
+    titulo.style.color = "#780606";
 });
 
 // Passa todos os paragrafos para maiusculo
@@ -46,7 +46,7 @@ document.querySelector("#btn-destaque").addEventListener("click", () => {
 });
 
 // Modo escuro: liga desliga a classe "escuro" no body
-const  botoeEscuro = document.querySelector("#btn-escuro");
+const  botaoEscuro = document.querySelector("#btn-escuro");
 botaoEscuro.addEventListener("click", () => {
     document.body.classList.toggle("escuro");
 
@@ -106,6 +106,5 @@ campoNome.addEventListener('input', () => {
   } else {
     saudacao.textContent = `Olá, ${nome}!`;
   }
-
   contador.textContent = `Letras: ${campoNome.value.length}`;
 });
