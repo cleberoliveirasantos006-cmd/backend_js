@@ -1,0 +1,14 @@
+=================================================================
+Aula sobre: Construção de um Backend com Javascript | 14/10/2026
+=================================================================
+
+-> Criar um repositorio no github com o  nome "backendjs".
+-> Lembre de ligar Xampp e colocar essa pasta no ~/htdocs.
+Aula:
+   ---> Coneção DON.
+
+Arquivos:
+   ~/atv1410/
+    -> index.html
+    -> script.js 
+    -> style.css
